@@ -1,5 +1,7 @@
 # PowerShell-ExchangeOnline
 This repository contains scripts and little helpers in the daily work or migration. These scripts are not always in 'prettiest' PowerShell language, but they are more intended to be little helpers and problem solvers.
+Before using any, carefully review and adjust the scripts to your need. 
+USE AT YOUR OWN RISK!
 
 ## Add-MailboxFullAccessPermissionsFromCSV.ps1
 Use this if you have 1 target mailbox (e.g. Shared Mailbox) and need to add a lot of people with FullAccess permissions. Provide the people with a CSV in the column 'User'. 
