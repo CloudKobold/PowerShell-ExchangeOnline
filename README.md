@@ -24,3 +24,10 @@ Exchange Online can grant FullAccess permissions for groups, but this doesn't co
 .\Resolve-MailboxPermissionsAndSetAutomapping.ps1 -MBX 'targetmailbox@contoso.com' -group 'sales@contoso.com'
 ```
 
+## Perform-AuditLogSearch.ps1
+This script is not developed by me, but sometimes it is good to have it easy and fast accessible, so I've took the sourcedode from 
+https://docs.microsoft.com/en-us/office365/troubleshoot/audit-logs/mailbox-audit-logs, did some adjustments and uploaded it here.
+```powershell
+# get Audit logs from the last 5 days
+Perform-AuditLogSearch -Mailbox <MAILBOX TO SEARCH> -StartDate ((Get-Date).AddDays(-5)).Date -EndDate (get-date).Date
+```
