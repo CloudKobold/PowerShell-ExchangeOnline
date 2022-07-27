@@ -44,3 +44,9 @@ This script contains templates to enable or disable personal Bookings for the wh
 ```powershell
 .\Set-PersonalBookingsForOrganization.ps1
 ```
+
+## Set-PersonalBookingsCalendarSharing.ps1
+This script sets the necessary calendar sharing policy for personal Bookings in Exchange Online.
+```powershell
+.\Set-PersonalBookingsCalendarSharing.ps1
+```
